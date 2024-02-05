@@ -31,10 +31,9 @@ function citySelected(event) {
   event.preventDefault();
   let input = document.querySelector("#city-searched");
   let currentCity = document.querySelector(".current-city");
-  let city = inpt.value;
+  let city = input.value;
   currentCity.innerHTML = input.value;
 
-  let city = input.value;
   let apiKey = `1a747f2d7ac32a100bt13fab8776o6ca`;
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
 

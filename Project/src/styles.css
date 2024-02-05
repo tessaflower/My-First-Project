@@ -1,0 +1,88 @@
+body {
+  background: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+  display: block;
+}
+main {
+  padding: 30px;
+  margin: 60 auto;
+}
+h1 {
+  font-size: 38px;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+  color: rgba(39, 33, 66, 0.4);
+}
+.current-weather h1 {
+  font-family: "Playfair Display", serif;
+}
+.weather-app {
+  background: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  display: block;
+}
+.weather-app header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+.weather-app form,
+.search-input,
+.search-button {
+  font-size: 16px;
+  border: none;
+  padding: 20px;
+}
+.current-details {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(39, 33, 66, 0.4);
+  position: relative;
+  top: -10px;
+}
+
+.weather-app form .search-input {
+  background-color: #f9f7fe;
+  color: rgba(39, 33, 66, 0.4);
+  width: 75%;
+  border-radius: 6px;
+}
+.weather-app form .search-button {
+  background-color: #885df1;
+  color: white;
+  line-height: 1;
+  border-radius: 5px;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+.current-temperature {
+  margin-top: 20px;
+}
+.current-temp-emoji {
+  font-size: 38px;
+  position: relative;
+  top: -20px;
+}
+.current-temp-number {
+  font-size: 80px;
+  margin-top: 40px;
+}
+.current-temp-unit {
+  position: relative;
+  top: -40px;
+}
+.current-details strong {
+  color: #f65282;
+}
+footer a {
+  color: #885df1;
+}
